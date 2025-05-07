@@ -19,7 +19,7 @@ class ProductController extends Controller
     public function index()
     {
         $products = &$this->products; //untuk mengambil referensi (meskipun referensi tidak terlalu penting di sini, tanpa & pun akan tetap jalan)
-        return view('products.index', compact('products')); //Mengembalikan view products.index dan mengirimkan data products ke dalam view tersebut.
+        return view('products.daftar', compact('products')); //Mengembalikan view products.index dan mengirimkan data products ke dalam view tersebut.
     }
 
     //menampilkan halaman detail produk --show($id)
