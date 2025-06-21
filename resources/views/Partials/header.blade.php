@@ -1,6 +1,6 @@
 <header class="bg-green-700 text-white shadow-md">
   <div class="container mx-auto px-4 py-4 flex items-center justify-between">
-    <a href="#" class="text-xl font-bold">SampahJiak</a>
+    <a href="#" class="text-xl font-bold">SampahBijak</a>
     <button class="md:hidden block" id="nav-toggle">
       <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

@@ -92,7 +92,7 @@
 <div class="container mx-auto px-4 mt-6">
     <div class="bg-green-100 shadow-md p-6 rounded-lg text-center">
         <h1 class="text-3xl md:text-4xl font-bold text-green-800 mb-4">
-            Selamat Datang di <span class="text-green-500">Sampahbijak</span>
+            Selamat Datang di <span class="text-green-500">SampahBijak</span>
         </h1>
         <p class="text-gray-700 text-base md:text-lg">
             Mari bersama kita wujudkan lingkungan bersih dan sehat melalui pengelolaan sampah yang bijak dan berkelanjutan.
