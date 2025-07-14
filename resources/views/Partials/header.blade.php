@@ -1,4 +1,4 @@
-<header class="bg-green-700 text-white shadow-md">
+{{-- <header class="bg-green-700 text-white shadow-md">
   <div class="container mx-auto px-4 py-4 flex items-center justify-between">
     <a href="#" class="text-xl font-bold">SampahBijak</a>
     <button class="md:hidden block" id="nav-toggle">
@@ -32,4 +32,4 @@
     const navMobile = document.getElementById('nav-mobile');
     navMobile.classList.toggle('hidden');
   });
-</script>
+</script> --}}

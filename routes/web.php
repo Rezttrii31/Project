@@ -2,7 +2,8 @@
 
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
-// use App\Http\Controllers\ProductController;
+
+use App\Http\Controllers\ProductController;
 // use App\Http\Controllers\UserController;
 // use App\Http\Controllers\ContactController;
 // use App\Http\Controllers\AdminController;
@@ -15,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/product/{id}', [ProductController::class, 'show']);
 // Route::get('/user/create', [UserController::class, 'create'])->name('user.create');
 // Route::post('/user/store', [UserController::class, 'store'])->name('user.store');
-Route::get('/users', [UserController::class, 'index']);
+// Route::get('/users', [UserController::class, 'index']);
 // Route::get('/contact', [ContactController::class, 'create'])->name('contact.create');
 // Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');
 // Route::get('/admin/create', [AdminController::class, 'create'])->name('admin.create');
@@ -28,3 +29,5 @@ Route::get('/users', [UserController::class, 'index']);
 // Route::get('/', function () {
 //     return view(('home'));
 // });
+
+Route::resource('products', ProductController::class);

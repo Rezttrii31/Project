@@ -8,7 +8,7 @@
     <ul>
         @foreach($products as $id => $product)
             <li>
-                <a href="{{ url('/product/' . $id) }}">
+                <a href="{{ url('/products/' . $id) }}">
                     {{ $product['name'] }} - Rp{{ number_format($product['price'], 0, ',', '.') }}
                 </a>
             </li>
